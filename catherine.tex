@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\section{Hypothèses}
+
+\subsection{Simplification du sujet}
+
+\paragraph{}
+Afin de simplifier l'étude de la diffusion thermique, nous avons décidé de négliger plusieurs phénomènes physiques.
+
+\begin{enumerate}
+    \item[-] \textbf{Homogénéité} : Nous considérons que le sol est homogène, c'est-à-dire à matériau unique dont la densité est constante. Nous négligeons donc la présence de racines d'arbres, nappes phréatiques ou de roches par exemple. Ceci a pour conséquence que nous ne considérons pas les échanges de chaleur latéraux. Le flux de chaleur se propage verticalement dans notre étude.
+    
+    \item[-] \textbf{Convection} : En effet, comme nous étudions le problème à une profondeur maximale de 10m, nous pouvons nous permettre de négliger la convection.
+    
+    \item[-] \textbf{Rayonnement} : Intégrer les problèmes de diffusion et de réflexion liés au rayonnement dans notre raisonnement et nos calculs ne semble pas pertinent. Le flux d'émission et d'absorption se compensent en grande partie. Il est donc possible de négliger le transfert de chaleur par rayonnement.
+    
+    \item[-]\textbf{Changements d'état} : Tous les changements d'états concernant les solides, liquides et gaz ne seront pas pris en compte.
+    
+\end{enumerate}
+
+\subsection{Echelle de profondeur}
+
+\paragraph{}
+Nous déterminons la profondeur maximale celle à partir duquel l'amortissement de la température est au delà de 0.99. Au niveau du sol, nous considérons que la température peut être assimilée à un signal périodique, d'où le lien avec l'amortissement du signal périodique. Cette profondeur correspond à 10m.
+
+\subsection{Echelle de temps}
+
+\paragraph{}
+Lors de ce projet, la question de l'échelle de temps est rapidement devenue une question centrale du sujet. Nous avons ainsi jugé pertinent de visualiser la diffusion thermique dans 3 échelles de temps différentes : sur \textbf{12 mois}, sur \textbf{365 jours} ou bien sur \textbf{24 heures} précis que l'on choisit.
+
+\paragraph{}
+Nous disposons d'un document relatant la \textbf{température à la surface du sol} en Algérie et en France, heure par heure sur une année. Avoir accès à deux pays nous permet de comprendre l'évolution de la diffusion thermique dans deux régions du monde très différentes l'une de l'autre. Nous voulons donc regrouper les données différemment selon l'échelle de temps considérée. 
+
+\paragraph{}
+Nous avons donc réalisé 3 fonctions différentes pour les 3 échelles de temps.
+\newline
+La première, soit la visualisation du phénomène sur un an, mois par mois, est la plus générale. Nous avons calculé la moyenne pour chaque mois pour chaque pays, ce qui permet d'observer le phénomène thermique de manière globale. Ceci est utile pour une estimation générale, mais n'est pas suffisante pour une compréhension plus profonde. 
+\newline 
+La seconde est plus précise : on considère le phénomène sur un an, jour par jour. Elle permet de comprendre à quel point les conditions météorologiques interviennent dans la diffusion thermique. 
+\newline 
+Enfin, nous voulions savoir si les conditions météorologiques jouaient un rôle considérable sur une période d'un jour. C'est pour cette raison que nous avons mis en place une fonction où nous pouvons choisir la date qui nous intéresse. 
+
+
+
+\end{document}

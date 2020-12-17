@@ -1,0 +1,13 @@
+Conductivité thermique du sol: (unités SI)
+
+https://www.thermoconcept-sarl.com/conductivite-thermique-des-sols-secs-et-humides/
+
+Capacité thermique volumique du sol:
+/!\ Unités pas SI
+
+https://energieplus-lesite.be/donnees/enveloppe44/caracteristiques-thermiques-des-sols/
+
+Autres sites pour la capacité thermique volumique du sol:
+
+https://tel.archives-ouvertes.fr/tel-01531316v2/document
+https://www.epfl.ch/labs/echo/wp-content/uploads/2018/07/06-Rgime-thermique-du-sol-1.pdf

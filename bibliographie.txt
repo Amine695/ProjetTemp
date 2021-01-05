@@ -24,4 +24,7 @@ http://www.tangentex.com/EquationChaleur.htm
 
 Site commun pour écrire :
 
-https://docs.google.com/document/d/1teogHDHFqIhxBpAUk5TTacsNWi28Qrn5fEhb7EOg-Dw/edit
+https://docs.google.com/document/d/1teogHDHFqIhxBpAUk5TTacsNWi28Qrn5fEhb7EOg-Dw/edit 
+
+Référence pour la résolution analytique : Page 33 et 34
+http://www.thermique55.com/principal/thermique.pdf 

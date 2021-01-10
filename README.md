@@ -9,10 +9,15 @@ Le projet github "ProjetTemp" regroupe plusieurs fichiers:
 
 - "RapportProjet" est le fichier correspondant à la version finale de notre rapport.
 
-- "implementation_methode_analytique" correspond à une implémentation numérique de la résolution analytique. 
+- "implementation_methode_analytique.ipynb" correspond à une implémentation numérique de la résolution analytique. 
 
-- "implementation_methode_cn" correspond au programme du schéma de Crank-Nicolson. Il s'agit d'un fichier de type Jupyter Notebook, il contient des commentaires d'explications pour chaque partie. Il est tout de même à noter que celui-ci a besoin du dossier "Donnees" pour fonctionner afin de pouvoir importer les données sans erreurs. De plus, une cellule de code nécessite le codec "ffmepg" pour se lancer. En outre, ce Notebook contient également une implémentation de la résolution analytique afin de comparer non seulement les différentes méthodes, mais aussi d'afficher les résultats sous diverses formes : graphes, heatmap, vidéo.
+- "implementation_methode_cn.ipynb" correspond au programme du schéma de Crank-Nicolson. Il s'agit d'un fichier de type Jupyter Notebook, il contient des commentaires d'explications pour chaque partie. Il est tout de même à noter que celui-ci a besoin du dossier "Donnees" pour fonctionner afin de pouvoir importer les données sans erreurs. De plus, une cellule de code nécessite le codec "ffmepg" pour se lancer. En outre, ce Notebook contient également une implémentation de la résolution analytique afin de comparer non seulement les différentes méthodes, mais aussi d'afficher les résultats sous diverses formes : graphes, heatmap, vidéo.
 
 - "implementation_methode_explicite.ipynb" correspond au programme du schéma explicite : pour le tester il est nécessaire d'avoir accès à Jupyter Notebook, 
 il suffit alors d'ouvrir le code sur Jupyter puis d'exécuter toutes les cases (on peut utiliser pour cela la commande "Restart & Run All" qui se trouve dans l'onglet "Kernel"). Les résultats seront présentés sous deux formes: gif et graphique statique en 2D. Il est à noter que des gifs peuvent être téléchargés dans le même répertoire où se situe le programme lorsque vous exécuterez ce dernier.
 
+
+
+N'oubliez pas : la plupart des programmes ont besoin du dossier "Donnees" pour fonctionner correctement.
+Pensez donc bien à enregistrer dans un même répertoire le dossier "Donnes" ainsi que les fichiers des programmes que vous souhaitez tester.
+Il est important de ne pas modifier le nom du dossier "Donnees".

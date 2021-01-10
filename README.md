@@ -16,6 +16,10 @@ Le projet github "ProjetTemp" regroupe plusieurs fichiers:
 - "implementation_methode_explicite.ipynb" correspond au programme du schéma explicite : pour le tester il est nécessaire d'avoir accès à Jupyter Notebook, 
 il suffit alors d'ouvrir le code sur Jupyter puis d'exécuter toutes les cases (on peut utiliser pour cela la commande "Restart & Run All" qui se trouve dans l'onglet "Kernel"). Les résultats seront présentés sous deux formes: gif et graphique statique en 2D. Il est à noter que des gifs peuvent être téléchargés dans le même répertoire où se situe le programme lorsque vous exécuterez ce dernier.
 
+Les résultats sous forme de GIFs de ce projet sont disponibles à l'adresse suivante : 
+https://drive.google.com/drive/folders/1eJTlo4ErnwQQfzG-EfC-OiVsIi6m9TVW
+
+Ici, vous trouverez les résultats de notre projet que nous avons décidé de ne pas inclure. Ils sont intéressants dans la mesure où il est possible de visualiser de manière dynamique l’évolution de la température au sein des couches supérieures du sol.
 
 
 N'oubliez pas : la plupart des programmes ont besoin du dossier "Donnees" pour fonctionner correctement.
